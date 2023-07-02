@@ -1,2 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
 
+body{
+    font-family: sans-serif;
+    color: #012180;
+    width: auto;
+    height: auto;
+    overflow-y: hidden;
+    overflow-x:hidden;
+}
+
+header{
+    width: 60%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    margin-right: 0%;
+    
+}
+
+.logo {
+    float: left;
+    margin-right: 3%;
+}
+
+.navbar a{
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.container-info  {
+    margin-top: -3rem;
+    width: 45rem;
+    height: 36rem;
+    float: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+
+    
+}
+
+.container-info h1{
+    font-size: 48px;
+    width: 38rem;
+    text-align: center;
+}
+
+.container-info p{
+    width: 18rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-info .button-box{
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border-color: #012180;
+    border:2px solid;
+}
+
+.container-info .button-box a{
+    color: #012180;
+    text-decoration: none;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.container-info .button-box:hover{
+    background-color: #012180;
+    transition: 200ms;
+}
+
+
+.container-info .button-box a:visited{
+    color: #012180;
+    text-decoration: none;
+}
+
+.container-info .button-box a:hover{
+    color: white;
+    transition: 200ms;
+}
+
+
+
+header .navbar nav a{
+    color: #012180;
+    
+}
+
+header .navbar nav a:visited{
+    color: #012180;
+}
+ 
+.mantenimientoIMG img{
+    margin-top: -13rem;
+    position: absolute;
+    width: 90rem;
+    border-top-left-radius: 600px;
+    border-bottom-left-radius: 600px;
+    border-color: #012180;
+    border: 17px solid;
+    
+    
+}
+
+.container-info .circle{
+    background-color: #012180;
+    position: absolute;
+    margin-left: -44rem;
+    margin-top: 37rem;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 100%;
+}
